@@ -1,4 +1,4 @@
-rom datetime import datetime
+from datetime import datetime
 
 class Libro:
     def __init__(self, titulo, autor, editorial, ano_publicacion, isbn, precio=0):
